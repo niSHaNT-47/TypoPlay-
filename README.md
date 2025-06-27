@@ -2,7 +2,8 @@
 TypoPlay is an interactive web application designed to make learning and experimenting with typography fun and engaging. It offers interactive games to help users understand typographical concepts and a "Typo Generator" tool to create playful and interesting text effects. 
 # TypoPlay: Fun with Typography
 
-![TypoPlay Screenshot - Placeholder](https://via.placeholder.com/800x400?text=TypoPlay+Screenshot)
+![image](https://github.com/user-attachments/assets/4cd907fe-cf7c-460f-944a-795e45f8937a)
+
 
 ## Table of Contents
 
