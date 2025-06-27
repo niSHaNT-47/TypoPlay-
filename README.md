@@ -99,4 +99,5 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 
 Nishant Chaubey - nishantchaubey.aiml2024@huroorkee.ac.in
-Project Link: [https://github.com/YourUsername/TypoPlay](https://github.com/YourUsername/TypoPlay)
+Project Link: http://127.0.0.1:5500/TypoPlay_01.html#games
+
