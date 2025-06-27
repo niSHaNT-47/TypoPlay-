@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypoPlay | Fun with Typography</title>
+  <link rel="stylesheet" href="TypoPlay_01.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">Typo<span>Play</span></div>
+        <nav>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#generator">Generator</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to TypoPlay!</h1>
+      <p>Discover the fun of typography with our interactive games and tools. Perfect for beginners and experts alike!</p>
+      <a href="#games" class="btn">Start Playing</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Features</h2>
+        <p>Explore what makes TypoPlay special</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <!-- <div class="feature-icon">A</div> -->
+          <div class="feature-icon"><i class="fas fa-gamepad"></i></div>
+
+          <h3>Interactive Games</h3>
+          <p>Fun games that help you learn typography while having fun.</p>
+        </div>
+        <div class="feature-card">
+          <!-- <div class="feature-icon">B</div> -->
+          <div class="feature-icon"><i class="fas fa-brush"></i></div>
+
+          <h3>Typo Generator</h3>
+          <p>Create interesting typographic effects with our easy-to-use tool.</p>
+        </div>
+        <div class="feature-card">
+          <!-- <div class="feature-icon">C</div> -->
+          <div class="feature-icon"><i class="fas fa-book"></i></div> 
+
+          <h3>Learn Typography</h3>
+          <p>Perfect for beginners to understand the basics of typography.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Games Section -->
+  <section class="games" id="games">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Games</h2>
+        <p>Choose a game to start playing</p>
+      </div>
+      <div class="games-grid">
+        <div class="game-card">
+          <div class="game-image">Spot the Typo</div>
+          <div class="game-info">
+            <h3>Spot the Typo</h3>
+            <p>Find the hidden typos in these sentences.</p>
+            <a href="#" class="btn">Play Now</a>
+          </div>
+        </div>
+        <div class="game-card">
+          <div class="game-image">Typo Race</div>
+          <div class="game-info">
+            <h3>Typo Race</h3>
+            <p>Type as fast as you can with intentional typos!</p>
+            <a href="#" class="btn">Play Now</a>
+          </div>
+        </div>
+        <div class="game-card">
+          <div class="game-image">Word Mix</div>
+          <div class="game-info">
+            <h3>Word Mix</h3>
+            <p>Unscramble these mixed up words.</p>
+            <a href="#" class="btn">Play Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Typo Generator -->
+  <section class="typo-generator" id="generator">
+    <div class="container">
+      <div class="section-title">
+        <h2>Typo Generator</h2>
+        <p>Create fun typographic effects</p>
+      </div>
+      <div class="generator-container">
+        <div class="input-group">
+          <label for="input-text">Enter your text:</label>
+          <textarea id="input-text" placeholder="Type something here..."></textarea>
+        </div>
+        <div class="options">
+          <div class="option">Random Swap</div>
+          <div class="option">Missing Letters</div>
+          <div class="option">Extra Letters</div>
+          <div class="option">Mixed Case</div>
+        </div>
+        <div class="output-group">
+          <label for="output-text">Your typo text:</label>
+          <div class="output-text" id="output-text">
+            Your generated typo will appear here...
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="about">
+    <div class="container">
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="#games">Games</a>
+        <a href="#generator">Generator</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <p>&copy; 2025 TypoPlay. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="TypoPlay_01.js"></script>
+  
+</body>
+</html>
